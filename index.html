@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+    </style>
+    <title>Avaliação</title>
+  </head>
+  <body>
+    <!-- Atividade 1  -->
+    <section id="exercice-1">
+      <div class="header-1">
+        <h2>Tipos de triangulos</h2>
+        <p>
+          Os triângulos podem ser classificados em 3 tipos quanto ao tamanho de
+          seus lados: <br />
+          Equilátero: Os três lados são iguais.<br />
+          Isósceles: Dois lados iguais.<br />
+          Escaleno: Todos os lados são diferentes.
+        </p>
+      </div>
+      <div class="content">
+        <div class="triangle">
+          <img src="/img/triangulo.png" alt="Triangulo de exemplo" />
+        </div>
+        <div class="input">
+          <label for="size-a">Tamanho do lado a em cm</label>
+          <input type="number" id="size-a" name="size-a" min="1" max="99" />
+          <br />
+          <label for="size-b">Tamanho do lado b em cm</label>
+          <input type="number" id="size-b" name="size-b" min="1" max="99" />
+          <br />
+          <label for="size-c">Tamanho do lado c em cm</label>
+          <input
+            type="number"
+            id="size-c"
+            name="size-c"
+            min="1"
+            max="99"
+          /><br />
+          <button id="send-t-value">Enviar</button>
+          <br />
+          <div class="result">
+            <input type="text" name="result-1" id="result-1" disabled />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Atividade 2  -->
+
+    <section id="exercice-2">
+      <div class="header-1">
+        <h2>Formula de Bhaskara</h2>
+        <p>Insira os valores</p>
+      </div>
+      <div class="content">
+        <div class="input">
+          <label for="value-x2">Valor de x²</label>
+          <input
+            type="number"
+            id="value-x2"
+            name="value-x2"
+            min="1"
+            max="99"
+          /><br />
+          <label for="value-b">Valor de b </label>
+          <input
+            type="number"
+            id="value-b"
+            name="value-b"
+            min="1"
+            max="99"
+          /><br />
+          <label for="value-c">valor de c </label>
+          <input
+            type="number"
+            id="value-c"
+            name="value-c"
+            min="1"
+            max="99"
+          /><br />
+          <button id="send-values">Enviar</button>
+        </div>
+
+        <div class="result">
+          <input type="text" name="result-2" id="result-2" disabled />
+        </div>
+      </div>
+    </section>
+
+    <!-- Atividade 3  -->
+
+    <section id="exercice-3">
+      <div class="header-1">
+        <h2>Sistema de notas</h2>
+        <p>Insira sua nota para verificar se foi aprovado</p>
+      </div>
+      <div class="content">
+        <div class="input">
+          <label for="nota">Sua nota</label>
+          <input type="number" id="nota" name="nota" min="1" max="100" /><br />
+          <button id="sendN">Enviar</button>
+        </div>
+
+        <div class="result">
+          <input type="text" name="result-3" id="result-3" disabled />
+        </div>
+      </div>
+    </section>
+
+    <!-- Atividade 4  -->
+
+    <section id="exercice-4">
+      <div class="header-1">
+        <h2>Luidy Moura</h2>
+        <p>Insira um valor entre 0 e 100</p>
+      </div>
+      <div class="content">
+        <div class="input">
+          <label for="Luidy">Valor</label>
+          <input
+            type="number"
+            id="Luidy"
+            name="Luidy"
+            min="1"
+            max="100"
+          /><br />
+          <button id="sendL">Enviar</button>
+        </div>
+        <div class="result">
+          <input type="text" name="result-4" id="result-4" disabled />
+        </div>
+      </div>
+    </section>
+
+    <script src="java.js"></script>
+  </body>
+</html>

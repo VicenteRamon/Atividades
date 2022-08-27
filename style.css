@@ -1,0 +1,62 @@
+/*reset css*/
+
+body {
+  margin: auto;
+  padding: 0;
+  width: 1200px;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 20px;
+}
+
+/*fonts and basic style*/
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+/*sections style*/
+
+#exercice-1 {
+  background-color: aqua;
+}
+
+#exercice-2 {
+  background-color: antiquewhite;
+}
+#exercice-3 {
+  background-color: beige;
+}
+#exercice-4 {
+  background-color: azure;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.content {
+  display: flex;
+}
+
+.header-1 {
+  width: 1200px;
+  text-align: center;
+}
+
+.input {
+  padding: 10px;
+  margin: 0px 40px 0px;
+}
