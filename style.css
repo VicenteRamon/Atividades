@@ -35,10 +35,10 @@ label {
   background-color: antiquewhite;
 }
 #exercice-3 {
-  background-color: beige;
+  background-color: aqua;
 }
 #exercice-4 {
-  background-color: azure;
+  background-color: antiquewhite;
 }
 
 section {
@@ -59,4 +59,35 @@ section {
 .input {
   padding: 10px;
   margin: 0px 40px 0px;
+}
+
+#result-4 {
+  width: 300px;
+  box-sizing: content-box;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+}
+
+#result-1 {
+  width: 200px;
+  padding: 20px;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+}
+#result-2 {
+  width: 150px;
+  padding: 20px;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+}
+#result-3 {
+  width: 200px;
+  padding: 20px;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
 }
